@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   font-family:Trebuchet,sans-serif;
   color: white;
@@ -32,4 +33,40 @@ ol li:before{
     counter-increment: li;
     content: counters(li,".")". ";
 }
+=======
+body{
+  font-family:Trebuchet,sans-serif;
+  color: white;
+  background-color: palevioletred;  
+}
+a {
+    a:active {color: white;}
+    
+    a:link {color: white;}
+    a:visited {color: white;}
+        a:hover {color: red;}
+}
+    
+
+    
+
+
+    
+
+
+
+ul.markimg {
+    list-style-image:url(img/dd.png);
+    
+}
+
+ol {
+    list-style: none;
+    counter-reset: li;
+}
+ol li:before{
+    counter-increment: li;
+    content: counters(li,".")". ";
+}
+>>>>>>> 814335b15ec3000bf580071d6238cf5da49056b4
               
